@@ -1,0 +1,11 @@
+"{
+    \"JBAS014671: Failed services\" => {\"jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService\" => \"org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module \\\"deployment.FrontAuthWatcherWebService.war:main\\\" from Service Module Loader]
+    Caused by: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module \\\"deployment.FrontAuthWatcherWebService.war:main\\\" from Service Module Loader]\"},
+    \"JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available.\" => {
+        \"Services that were unable to start:\" => [
+            \"jboss.deployment.unit.\\\"FrontAuthWatcherWebService.war\\\".deploymentCompleteService\",
+            \"jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService\"
+        ],
+        \"Services that may be the cause:\" => [\"jboss.jdbc-driver.mysqlDriver\"]
+    }
+}"

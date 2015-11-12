@@ -1,0 +1,665 @@
+2015-11-12 09:25:48,852 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.7.Final
+2015-11-12 09:25:48,947 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 36) JBAS016300: Activating JacORB Subsystem
+2015-11-12 09:25:49,051 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2015-11-12 09:25:49,049 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 51) JBAS013171: Activating Security Subsystem
+2015-11-12 09:25:48,943 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 35) JBAS010280: Activating Infinispan subsystem.
+2015-11-12 09:25:48,990 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) JBAS011800: Activating Naming Subsystem
+2015-11-12 09:25:48,960 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 42) JBAS012615: Activated the following JSF Implementations: [main]
+2015-11-12 09:25:48,913 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 34) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2015-11-12 09:25:48,937 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-11-12 09:25:49,151 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 54) JBAS015537: Activating WebServices Extension
+2015-11-12 09:25:49,242 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013170: Current PicketBox version=4.0.21.Final
+2015-11-12 09:25:49,264 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017502: Undertow 1.1.8.Final starting
+2015-11-12 09:25:49,419 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017502: Undertow 1.1.8.Final starting
+2015-11-12 09:25:49,473 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2015-11-12 09:25:49,621 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010417: Started Driver service with driver-name = h2
+2015-11-12 09:25:49,669 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Starting Naming Service
+2015-11-12 09:25:49,695 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2015-11-12 09:25:49,838 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017527: Creating file handler for path /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/welcome-content
+2015-11-12 09:25:49,962 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017525: Started server default-server.
+2015-11-12 09:25:50,092 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017531: Host default-host starting
+2015-11-12 09:25:50,660 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-11-12 09:25:50,836 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016330: CORBA ORB Service started
+2015-11-12 09:25:51,530 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/deployments
+2015-11-12 09:25:51,565 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "SampleEJBProject.jar" (runtime-name: "SampleEJBProject.jar")
+2015-11-12 09:25:51,572 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "FrontAuthWatcherWebService.war" (runtime-name: "FrontAuthWatcherWebService.war")
+2015-11-12 09:25:51,833 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016328: CORBA Naming Service started
+2015-11-12 09:25:52,092 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/messagingjournal,bindingsDirectory=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/messagingbindings,largeMessagesDirectory=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/messaginglargemessages,pagingDirectory=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/messagingpaging)
+2015-11-12 09:25:52,104 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221006: Waiting to obtain live lock
+2015-11-12 09:25:52,997 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221012: Using AIO Journal
+2015-11-12 09:25:53,196 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2015-11-12 09:25:53,301 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 56) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+2015-11-12 09:25:53,564 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support CORE
+2015-11-12 09:25:53,588 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support AMQP
+2015-11-12 09:25:53,608 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016002: Processing weld deployment SampleEJBProject.jar
+2015-11-12 09:25:53,616 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support STOMP
+2015-11-12 09:25:53,868 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221034: Waiting to obtain live lock
+2015-11-12 09:25:53,868 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221035: Live Server Obtained live lock
+2015-11-12 09:25:53,943 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.1.3.Final
+2015-11-12 09:25:54,401 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named SampleEJB in deployment unit deployment "SampleEJBProject.jar" are as follows:
+
+	java:global/SampleEJBProject/SampleEJB!ejb.SampleEJBLocal
+	java:app/SampleEJBProject/SampleEJB!ejb.SampleEJBLocal
+	java:module/SampleEJB!ejb.SampleEJBLocal
+	java:global/SampleEJBProject/SampleEJB
+	java:app/SampleEJBProject/SampleEJB
+	java:module/SampleEJB
+
+2015-11-12 09:25:54,633 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2015-11-12 09:25:54,724 WARN  [org.jboss.as.ee] (MSC service thread 1-3) JBAS011006: Not installing optional component servlet.AuthServlet due to an exception (enable DEBUG log level to see the cause)
+2015-11-12 09:25:54,894 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016005: Starting Services for CDI deployment: SampleEJBProject.jar
+2015-11-12 09:25:55,001 INFO  [org.jboss.messaging] (MSC service thread 1-1) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor-throughput acceptor
+2015-11-12 09:25:55,002 INFO  [org.jboss.messaging] (MSC service thread 1-3) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor acceptor
+2015-11-12 09:25:55,090 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.2.6 (Final)
+2015-11-12 09:25:55,141 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016008: Starting weld service for deployment SampleEJBProject.jar
+2015-11-12 09:25:55,199 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221007: Server is now live
+2015-11-12 09:25:55,200 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221001: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [08d71b4f-4fe8-11e5-b2aa-59bbbc3d6822] 
+2015-11-12 09:25:55,208 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 57) HQ221003: trying to deploy queue jms.queue.DLQ
+2015-11-12 09:25:55,260 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 57) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+2015-11-12 09:25:55,392 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 60) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+2015-11-12 09:25:55,394 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 59) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2015-11-12 09:25:55,395 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 59) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+2015-11-12 09:25:55,396 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2015-11-12 09:25:55,449 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) JBAS010406: Registered connection factory java:/JmsXA
+2015-11-12 09:25:55,560 INFO  [org.hornetq.ra] (MSC service thread 1-3) HornetQ resource adaptor started
+2015-11-12 09:25:55,565 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-3) IJ020002: Deployed: file://RaActivatorhornetq-ra
+2015-11-12 09:25:55,574 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+2015-11-12 09:25:55,575 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2015-11-12 09:25:55,630 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.createServletConfig(UndertowDeploymentInfoService.java:933)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.start(UndertowDeploymentInfoService.java:256)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+Caused by: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:213) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:459) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:408) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:389) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:134) [jboss-modules.jar:1.3.3.Final]
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.createServletConfig(UndertowDeploymentInfoService.java:651)
+	... 6 more
+
+2015-11-12 09:25:56,637 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "FrontAuthWatcherWebService.war")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module \"deployment.FrontAuthWatcherWebService.war:main\" from Service Module Loader]
+    Caused by: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module \"deployment.FrontAuthWatcherWebService.war:main\" from Service Module Loader]"}}
+2015-11-12 09:25:56,729 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "SampleEJBProject.jar" (runtime-name : "SampleEJBProject.jar")
+2015-11-12 09:25:56,730 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "FrontAuthWatcherWebService.war" (runtime-name : "FrontAuthWatcherWebService.war")
+2015-11-12 09:25:56,750 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+
+2015-11-12 09:25:56,830 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2015-11-12 09:25:56,831 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2015-11-12 09:25:56,832 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: WildFly 8.2.1.Final "Tweek" started (with errors) in 12543ms - Started 362 of 424 services (3 services failed or missing dependencies, 111 services are lazy, passive or on-demand)
+2015-11-12 09:25:57,046 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment FrontAuthWatcherWebService.war (runtime-name: FrontAuthWatcherWebService.war) in 44ms
+2015-11-12 09:25:57,212 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "FrontAuthWatcherWebService.war" (runtime-name: "FrontAuthWatcherWebService.war")
+2015-11-12 09:25:57,214 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService, service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService, service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService, service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService (missing) dependents: [service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService
+
+2015-11-12 09:26:01,823 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found FrontAuthWatcherWebService.war in deployment directory. To trigger deployment create a file called FrontAuthWatcherWebService.war.dodeploy
+2015-11-12 09:35:03,362 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017532: Host default-host stopping
+2015-11-12 09:35:03,365 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 62) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2015-11-12 09:35:03,376 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 63) JBAS011605: Unbound messaging object to jndi name java:/ConnectionFactory
+2015-11-12 09:35:03,409 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-11-12 09:35:03,418 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Stopping weld service for deployment SampleEJBProject.jar
+2015-11-12 09:35:03,427 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+2015-11-12 09:35:03,416 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011605: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2015-11-12 09:35:03,464 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010418: Stopped Driver service with driver-name = h2
+2015-11-12 09:35:03,515 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment SampleEJBProject.jar (runtime-name: SampleEJBProject.jar) in 216ms
+2015-11-12 09:35:03,524 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 64) HQ151003: HornetQ resource adaptor stopped
+2015-11-12 09:35:03,597 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 64) HQ221002: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [08d71b4f-4fe8-11e5-b2aa-59bbbc3d6822] stopped
+2015-11-12 09:35:03,602 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017521: Undertow HTTP listener default suspending
+2015-11-12 09:35:03,607 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2015-11-12 09:35:03,613 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017506: Undertow 1.1.8.Final stopping
+2015-11-12 09:35:03,628 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015950: WildFly 8.2.1.Final "Tweek" stopped in 299ms
+2015-11-12 09:38:01,055 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2015-11-12 09:38:01,775 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2015-11-12 09:38:01,931 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: WildFly 8.2.1.Final "Tweek" starting
+2015-11-12 09:38:01,941 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-7-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.7.0_79-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_79
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.79-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1
+	jboss.host.name = tpi24
+	jboss.modules.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = tpi24
+	jboss.qualified.host.name = tpi24.cpe.fr
+	jboss.server.base.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone
+	jboss.server.config.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/configuration
+	jboss.server.data.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data
+	jboss.server.deploy.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/content
+	jboss.server.log.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/log
+	jboss.server.name = tpi24
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/configuration/logging.properties
+	module.path = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/modules
+	org.jboss.boot.log.file = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.13.0-57-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = FR
+	user.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/bin
+	user.home = /fs03/share/users/eddine.djerboua/home
+	user.language = fr
+	user.name = eddine.djerboua
+	user.timezone = Europe/Paris
+2015-11-12 09:38:01,956 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=JBossTools: WildFly 8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/log/boot.log -Dlogging.configuration=file:/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/configuration/logging.properties -Djboss.home.dir=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2015-11-12 09:38:04,001 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found SampleEJBProject.jar in deployment directory. To trigger deployment create a file called SampleEJBProject.jar.dodeploy
+2015-11-12 09:38:04,002 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found FrontAuthWatcherWebService.war in deployment directory. To trigger deployment create a file called FrontAuthWatcherWebService.war.dodeploy
+2015-11-12 09:38:04,048 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2015-11-12 09:38:04,113 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.0.Final
+2015-11-12 09:38:04,140 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.0.Final
+2015-11-12 09:38:04,208 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.7.Final
+2015-11-12 09:38:04,218 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 34) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2015-11-12 09:38:04,235 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 35) JBAS010280: Activating Infinispan subsystem.
+2015-11-12 09:38:04,260 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 36) JBAS016300: Activating JacORB Subsystem
+2015-11-12 09:38:04,292 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-11-12 09:38:04,369 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 51) JBAS013171: Activating Security Subsystem
+2015-11-12 09:38:04,371 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2015-11-12 09:38:04,408 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 42) JBAS012615: Activated the following JSF Implementations: [main]
+2015-11-12 09:38:04,420 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) JBAS011800: Activating Naming Subsystem
+2015-11-12 09:38:04,458 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013170: Current PicketBox version=4.0.21.Final
+2015-11-12 09:38:04,473 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 54) JBAS015537: Activating WebServices Extension
+2015-11-12 09:38:04,483 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017502: Undertow 1.1.8.Final starting
+2015-11-12 09:38:04,483 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017502: Undertow 1.1.8.Final starting
+2015-11-12 09:38:04,604 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-4) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2015-11-12 09:38:04,682 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010417: Started Driver service with driver-name = h2
+2015-11-12 09:38:04,859 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Starting Naming Service
+2015-11-12 09:38:04,902 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2015-11-12 09:38:05,082 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017527: Creating file handler for path /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/welcome-content
+2015-11-12 09:38:05,325 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017525: Started server default-server.
+2015-11-12 09:38:05,379 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017531: Host default-host starting
+2015-11-12 09:38:05,644 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-11-12 09:38:05,790 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016330: CORBA ORB Service started
+2015-11-12 09:38:06,213 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/messagingjournal,bindingsDirectory=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/messagingbindings,largeMessagesDirectory=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/messaginglargemessages,pagingDirectory=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/messagingpaging)
+2015-11-12 09:38:06,233 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221006: Waiting to obtain live lock
+2015-11-12 09:38:06,435 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221012: Using AIO Journal
+2015-11-12 09:38:06,512 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "SampleEJBProject.jar" (runtime-name: "SampleEJBProject.jar")
+2015-11-12 09:38:06,602 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/deployments
+2015-11-12 09:38:06,603 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "FrontAuthWatcherWebService.war" (runtime-name: "FrontAuthWatcherWebService.war")
+2015-11-12 09:38:06,678 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016328: CORBA Naming Service started
+2015-11-12 09:38:06,766 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 56) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+2015-11-12 09:38:07,695 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support CORE
+2015-11-12 09:38:07,824 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support AMQP
+2015-11-12 09:38:07,851 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support STOMP
+2015-11-12 09:38:07,971 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2015-11-12 09:38:08,058 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221034: Waiting to obtain live lock
+2015-11-12 09:38:08,058 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221035: Live Server Obtained live lock
+2015-11-12 09:38:08,333 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment SampleEJBProject.jar
+2015-11-12 09:38:08,651 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.1.3.Final
+2015-11-12 09:38:08,981 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named SampleEJB in deployment unit deployment "SampleEJBProject.jar" are as follows:
+
+	java:global/SampleEJBProject/SampleEJB!ejb.SampleEJBLocal
+	java:app/SampleEJBProject/SampleEJB!ejb.SampleEJBLocal
+	java:module/SampleEJB!ejb.SampleEJBLocal
+	java:global/SampleEJBProject/SampleEJB
+	java:app/SampleEJBProject/SampleEJB
+	java:module/SampleEJB
+
+2015-11-12 09:38:09,127 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2015-11-12 09:38:09,164 WARN  [org.jboss.as.ee] (MSC service thread 1-2) JBAS011006: Not installing optional component servlet.AuthServlet due to an exception (enable DEBUG log level to see the cause)
+2015-11-12 09:38:09,240 INFO  [org.jboss.messaging] (MSC service thread 1-4) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor-throughput acceptor
+2015-11-12 09:38:09,240 INFO  [org.jboss.messaging] (MSC service thread 1-1) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor acceptor
+2015-11-12 09:38:09,356 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016005: Starting Services for CDI deployment: SampleEJBProject.jar
+2015-11-12 09:38:09,442 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221007: Server is now live
+2015-11-12 09:38:09,443 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221001: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [08d71b4f-4fe8-11e5-b2aa-59bbbc3d6822] 
+2015-11-12 09:38:09,474 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 56) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+2015-11-12 09:38:09,486 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 2.2.6 (Final)
+2015-11-12 09:38:09,503 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2015-11-12 09:38:09,568 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+2015-11-12 09:38:09,571 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 59) HQ221003: trying to deploy queue jms.queue.DLQ
+2015-11-12 09:38:09,572 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 59) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+2015-11-12 09:38:09,574 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 57) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2015-11-12 09:38:09,587 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016008: Starting weld service for deployment SampleEJBProject.jar
+2015-11-12 09:38:09,690 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010406: Registered connection factory java:/JmsXA
+2015-11-12 09:38:09,761 INFO  [org.hornetq.ra] (MSC service thread 1-1) HornetQ resource adaptor started
+2015-11-12 09:38:09,762 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatorhornetq-ra
+2015-11-12 09:38:09,765 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+2015-11-12 09:38:09,766 INFO  [org.jboss.as.messaging] (MSC service thread 1-4) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2015-11-12 09:38:09,800 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.createServletConfig(UndertowDeploymentInfoService.java:933)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.start(UndertowDeploymentInfoService.java:256)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+Caused by: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:213) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:459) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:408) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:389) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:134) [jboss-modules.jar:1.3.3.Final]
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.createServletConfig(UndertowDeploymentInfoService.java:651)
+	... 6 more
+
+2015-11-12 09:38:10,643 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "FrontAuthWatcherWebService.war")]) - failure description: {
+    "JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module \"deployment.FrontAuthWatcherWebService.war:main\" from Service Module Loader]
+    Caused by: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module \"deployment.FrontAuthWatcherWebService.war:main\" from Service Module Loader]"},
+    "JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => [
+            "jboss.deployment.unit.\"FrontAuthWatcherWebService.war\".deploymentCompleteService",
+            "jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService"
+        ],
+        "Services that may be the cause:" => ["jboss.jdbc-driver.mysqlDriver"]
+    }
+}
+2015-11-12 09:38:10,645 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "mysqlDS")
+]) - failure description: {"JBAS014771: Services with missing/unavailable dependencies" => [
+    "jboss.data-source.java:/mysql is missing [jboss.jdbc-driver.mysqlDriver]",
+    "jboss.driver-demander.java:/mysql is missing [jboss.jdbc-driver.mysqlDriver]"
+]}
+2015-11-12 09:38:10,650 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "mysqlDS")
+]) - failure description: {
+    "JBAS014771: Services with missing/unavailable dependencies" => [
+        "jboss.data-source.java:/mysql is missing [jboss.jdbc-driver.mysqlDriver]",
+        "jboss.driver-demander.java:/mysql is missing [jboss.jdbc-driver.mysqlDriver]"
+    ],
+    "JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => [
+            "jboss.data-source.reference-factory.mysqlDS",
+            "jboss.naming.context.java.mysql"
+        ],
+        "Services that may be the cause:" => ["jboss.jdbc-driver.mysqlDriver"]
+    }
+}
+2015-11-12 09:38:10,719 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "SampleEJBProject.jar" (runtime-name : "SampleEJBProject.jar")
+2015-11-12 09:38:10,721 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "FrontAuthWatcherWebService.war" (runtime-name : "FrontAuthWatcherWebService.war")
+2015-11-12 09:38:10,725 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.jdbc-driver.mysqlDriver (missing) dependents: [service jboss.driver-demander.java:/mysql, service jboss.data-source.java:/mysql] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+
+2015-11-12 09:38:10,825 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2015-11-12 09:38:10,826 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2015-11-12 09:38:10,826 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: WildFly 8.2.1.Final "Tweek" started (with errors) in 10298ms - Started 363 of 429 services (7 services failed or missing dependencies, 111 services are lazy, passive or on-demand)
+2015-11-12 09:38:10,999 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment FrontAuthWatcherWebService.war (runtime-name: FrontAuthWatcherWebService.war) in 29ms
+2015-11-12 09:38:11,125 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "FrontAuthWatcherWebService.war" (runtime-name: "FrontAuthWatcherWebService.war")
+2015-11-12 09:38:11,126 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."Servlet.WatcherAuthServlet".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService, service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService, service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService, service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService, service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService (missing) dependents: [service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService
+
+2015-11-12 09:38:15,804 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015003: Found FrontAuthWatcherWebService.war in deployment directory. To trigger deployment create a file called FrontAuthWatcherWebService.war.dodeploy
+2015-11-12 11:21:17,742 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "FrontAuthWatcherWebService.war" (runtime-name: "FrontAuthWatcherWebService.war")
+2015-11-12 11:21:17,939 WARN  [org.jboss.as.ee] (MSC service thread 1-4) JBAS011006: Not installing optional component servlet.AuthServlet due to an exception (enable DEBUG log level to see the cause)
+2015-11-12 11:21:18,020 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.createServletConfig(UndertowDeploymentInfoService.java:933)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.start(UndertowDeploymentInfoService.java:256)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+Caused by: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:213) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:459) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:408) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:389) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:134) [jboss-modules.jar:1.3.3.Final]
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.createServletConfig(UndertowDeploymentInfoService.java:651)
+	... 6 more
+
+2015-11-12 11:21:18,025 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "FrontAuthWatcherWebService.war")]) - failure description: {
+    "JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module \"deployment.FrontAuthWatcherWebService.war:main\" from Service Module Loader]
+    Caused by: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module \"deployment.FrontAuthWatcherWebService.war:main\" from Service Module Loader]"},
+    "JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => [
+            "jboss.deployment.unit.\"FrontAuthWatcherWebService.war\".deploymentCompleteService",
+            "jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService"
+        ],
+        "Services that may be the cause:" => ["jboss.jdbc-driver.mysqlDriver"]
+    }
+}
+2015-11-12 11:21:18,153 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "FrontAuthWatcherWebService.war" (runtime-name : "FrontAuthWatcherWebService.war")
+2015-11-12 11:21:18,153 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014776:    Newly corrected services:
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."Servlet.WatcherAuthServlet".START (new available)
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."javax.faces.webapp.FacetTag".START (new available)
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (new available)
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (new available)
+      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService (new available)
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+
+2015-11-12 11:22:22,026 INFO  [org.jboss.as.controller] (management-handler-thread - 1) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+
+2015-11-12 11:22:22,125 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017532: Host default-host stopping
+2015-11-12 11:22:22,127 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 65) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2015-11-12 11:22:22,153 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 68) JBAS011605: Unbound messaging object to jndi name java:/jms/queue/DLQ
+2015-11-12 11:22:22,223 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-11-12 11:22:22,224 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011605: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2015-11-12 11:22:22,226 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+2015-11-12 11:22:22,234 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016009: Stopping weld service for deployment SampleEJBProject.jar
+2015-11-12 11:22:22,254 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010418: Stopped Driver service with driver-name = h2
+2015-11-12 11:22:22,294 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment FrontAuthWatcherWebService.war (runtime-name: FrontAuthWatcherWebService.war) in 233ms
+2015-11-12 11:22:22,344 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment SampleEJBProject.jar (runtime-name: SampleEJBProject.jar) in 257ms
+2015-11-12 11:22:22,372 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 67) HQ151003: HornetQ resource adaptor stopped
+2015-11-12 11:22:22,585 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221002: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [08d71b4f-4fe8-11e5-b2aa-59bbbc3d6822] stopped
+2015-11-12 11:22:22,587 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017521: Undertow HTTP listener default suspending
+2015-11-12 11:22:22,591 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2015-11-12 11:22:22,613 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017506: Undertow 1.1.8.Final stopping
+2015-11-12 11:22:22,645 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: WildFly 8.2.1.Final "Tweek" stopped in 537ms
+2015-11-12 11:22:24,559 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2015-11-12 11:22:25,647 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2015-11-12 11:22:25,824 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015899: WildFly 8.2.1.Final "Tweek" starting
+2015-11-12 11:22:25,833 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-7-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.7.0_79-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_79
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.79-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1
+	jboss.host.name = tpi24
+	jboss.modules.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = tpi24
+	jboss.qualified.host.name = tpi24.cpe.fr
+	jboss.server.base.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone
+	jboss.server.config.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/configuration
+	jboss.server.data.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data
+	jboss.server.deploy.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/content
+	jboss.server.log.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/log
+	jboss.server.name = tpi24
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/configuration/logging.properties
+	module.path = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/modules
+	org.jboss.boot.log.file = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.13.0-57-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = FR
+	user.dir = /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/bin
+	user.home = /fs03/share/users/eddine.djerboua/home
+	user.language = fr
+	user.name = eddine.djerboua
+	user.timezone = Europe/Paris
+2015-11-12 11:22:25,837 DEBUG [org.jboss.as.config] (MSC service thread 1-3) VM Arguments: -Dprogram.name=JBossTools: WildFly 8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/log/boot.log -Dlogging.configuration=file:/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/configuration/logging.properties -Djboss.home.dir=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2015-11-12 11:22:30,453 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment FrontAuthWatcherWebService.war
+2015-11-12 11:22:30,457 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found SampleEJBProject.jar in deployment directory. To trigger deployment create a file called SampleEJBProject.jar.dodeploy
+2015-11-12 11:22:30,458 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found FrontAuthWatcherWebService.war in deployment directory. To trigger deployment create a file called FrontAuthWatcherWebService.war.dodeploy
+2015-11-12 11:22:30,536 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2015-11-12 11:22:30,581 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.0.Final
+2015-11-12 11:22:30,602 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.0.Final
+2015-11-12 11:22:30,661 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 34) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2015-11-12 11:22:30,666 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 35) JBAS010280: Activating Infinispan subsystem.
+2015-11-12 11:22:30,673 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 36) JBAS016300: Activating JacORB Subsystem
+2015-11-12 11:22:30,703 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 51) JBAS013171: Activating Security Subsystem
+2015-11-12 11:22:30,736 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 54) JBAS015537: Activating WebServices Extension
+2015-11-12 11:22:30,743 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 42) JBAS012615: Activated the following JSF Implementations: [main]
+2015-11-12 11:22:30,765 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2015-11-12 11:22:30,788 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) JBAS011800: Activating Naming Subsystem
+2015-11-12 11:22:30,814 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013170: Current PicketBox version=4.0.21.Final
+2015-11-12 11:22:30,908 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017502: Undertow 1.1.8.Final starting
+2015-11-12 11:22:30,912 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017502: Undertow 1.1.8.Final starting
+2015-11-12 11:22:30,981 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.7.Final
+2015-11-12 11:22:31,174 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-11-12 11:22:31,179 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+2015-11-12 11:22:31,267 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2015-11-12 11:22:31,299 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2015-11-12 11:22:31,315 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010417: Started Driver service with driver-name = h2
+2015-11-12 11:22:31,700 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017527: Creating file handler for path /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/welcome-content
+2015-11-12 11:22:32,015 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017525: Started server default-server.
+2015-11-12 11:22:32,043 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017531: Host default-host starting
+2015-11-12 11:22:32,509 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-11-12 11:22:32,772 INFO  [org.jboss.as.jacorb] (MSC service thread 1-4) JBAS016330: CORBA ORB Service started
+2015-11-12 11:22:33,022 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/messagingjournal,bindingsDirectory=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/messagingbindings,largeMessagesDirectory=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/messaginglargemessages,pagingDirectory=/var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/data/messagingpaging)
+2015-11-12 11:22:33,039 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221006: Waiting to obtain live lock
+2015-11-12 11:22:33,154 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory /var/tmp/eddine.djerboua/workspace/wildfly-8.2.1/standalone/deployments
+2015-11-12 11:22:33,166 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "FrontAuthWatcherWebService.war" (runtime-name: "FrontAuthWatcherWebService.war")
+2015-11-12 11:22:33,171 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "SampleEJBProject.jar" (runtime-name: "SampleEJBProject.jar")
+2015-11-12 11:22:33,231 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221012: Using AIO Journal
+2015-11-12 11:22:33,472 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 56) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+2015-11-12 11:22:33,692 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support CORE
+2015-11-12 11:22:33,758 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support AMQP
+2015-11-12 11:22:33,779 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support STOMP
+2015-11-12 11:22:33,858 INFO  [org.jboss.as.jacorb] (MSC service thread 1-4) JBAS016328: CORBA Naming Service started
+2015-11-12 11:22:33,917 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2015-11-12 11:22:34,058 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221034: Waiting to obtain live lock
+2015-11-12 11:22:34,058 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221035: Live Server Obtained live lock
+2015-11-12 11:22:34,345 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016002: Processing weld deployment SampleEJBProject.jar
+2015-11-12 11:22:34,644 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.1.3.Final
+2015-11-12 11:22:35,084 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-3) JNDI bindings for session bean named SampleEJB in deployment unit deployment "SampleEJBProject.jar" are as follows:
+
+	java:global/SampleEJBProject/SampleEJB!ejb.SampleEJBLocal
+	java:app/SampleEJBProject/SampleEJB!ejb.SampleEJBLocal
+	java:module/SampleEJB!ejb.SampleEJBLocal
+	java:global/SampleEJBProject/SampleEJB
+	java:app/SampleEJBProject/SampleEJB
+	java:module/SampleEJB
+
+2015-11-12 11:22:35,384 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2015-11-12 11:22:35,440 WARN  [org.jboss.as.ee] (MSC service thread 1-4) JBAS011006: Not installing optional component servlet.AuthServlet due to an exception (enable DEBUG log level to see the cause)
+2015-11-12 11:22:35,456 INFO  [org.jboss.messaging] (MSC service thread 1-3) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor acceptor
+2015-11-12 11:22:35,456 INFO  [org.jboss.messaging] (MSC service thread 1-2) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor-throughput acceptor
+2015-11-12 11:22:35,632 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221007: Server is now live
+2015-11-12 11:22:35,633 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221001: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [08d71b4f-4fe8-11e5-b2aa-59bbbc3d6822] 
+2015-11-12 11:22:35,686 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016005: Starting Services for CDI deployment: SampleEJBProject.jar
+2015-11-12 11:22:35,691 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 56) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+2015-11-12 11:22:35,721 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 59) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2015-11-12 11:22:35,733 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 59) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+2015-11-12 11:22:35,739 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221003: trying to deploy queue jms.queue.DLQ
+2015-11-12 11:22:35,740 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+2015-11-12 11:22:35,742 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 57) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2015-11-12 11:22:35,840 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 2.2.6 (Final)
+2015-11-12 11:22:35,886 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016008: Starting weld service for deployment SampleEJBProject.jar
+2015-11-12 11:22:35,944 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) JBAS010406: Registered connection factory java:/JmsXA
+2015-11-12 11:22:36,030 INFO  [org.hornetq.ra] (MSC service thread 1-3) HornetQ resource adaptor started
+2015-11-12 11:22:36,031 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-3) IJ020002: Deployed: file://RaActivatorhornetq-ra
+2015-11-12 11:22:36,035 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+2015-11-12 11:22:36,035 INFO  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2015-11-12 11:22:36,073 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.createServletConfig(UndertowDeploymentInfoService.java:933)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.start(UndertowDeploymentInfoService.java:256)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_79]
+Caused by: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:213) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:459) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassChecked(ConcurrentClassLoader.java:408) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:389) [jboss-modules.jar:1.3.3.Final]
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:134) [jboss-modules.jar:1.3.3.Final]
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.createServletConfig(UndertowDeploymentInfoService.java:651)
+	... 6 more
+
+2015-11-12 11:22:37,016 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "FrontAuthWatcherWebService.war")]) - failure description: {
+    "JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module \"deployment.FrontAuthWatcherWebService.war:main\" from Service Module Loader]
+    Caused by: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module \"deployment.FrontAuthWatcherWebService.war:main\" from Service Module Loader]"},
+    "JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => [
+            "jboss.deployment.unit.\"FrontAuthWatcherWebService.war\".deploymentCompleteService",
+            "jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService"
+        ],
+        "Services that may be the cause:" => ["jboss.jdbc-driver.mysqlDriver"]
+    }
+}
+2015-11-12 11:22:37,018 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "mysqlDS")
+]) - failure description: {"JBAS014771: Services with missing/unavailable dependencies" => [
+    "jboss.data-source.java:/mysql is missing [jboss.jdbc-driver.mysqlDriver]",
+    "jboss.driver-demander.java:/mysql is missing [jboss.jdbc-driver.mysqlDriver]"
+]}
+2015-11-12 11:22:37,022 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "mysqlDS")
+]) - failure description: {
+    "JBAS014771: Services with missing/unavailable dependencies" => [
+        "jboss.data-source.java:/mysql is missing [jboss.jdbc-driver.mysqlDriver]",
+        "jboss.driver-demander.java:/mysql is missing [jboss.jdbc-driver.mysqlDriver]"
+    ],
+    "JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => [
+            "jboss.data-source.reference-factory.mysqlDS",
+            "jboss.naming.context.java.mysql"
+        ],
+        "Services that may be the cause:" => ["jboss.jdbc-driver.mysqlDriver"]
+    }
+}
+2015-11-12 11:22:37,791 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "FrontAuthWatcherWebService.war" (runtime-name : "FrontAuthWatcherWebService.war")
+2015-11-12 11:22:37,793 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "SampleEJBProject.jar" (runtime-name : "SampleEJBProject.jar")
+2015-11-12 11:22:37,796 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.jdbc-driver.mysqlDriver (missing) dependents: [service jboss.driver-demander.java:/mysql, service jboss.data-source.java:/mysql] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: servlet.AuthServlet from [Module "deployment.FrontAuthWatcherWebService.war:main" from Service Module Loader]
+
+2015-11-12 11:22:37,893 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2015-11-12 11:22:37,893 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2015-11-12 11:22:37,906 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: WildFly 8.2.1.Final "Tweek" started (with errors) in 14397ms - Started 363 of 429 services (7 services failed or missing dependencies, 111 services are lazy, passive or on-demand)
+2015-11-12 11:22:38,074 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment FrontAuthWatcherWebService.war (runtime-name: FrontAuthWatcherWebService.war) in 30ms
+2015-11-12 11:22:38,234 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "FrontAuthWatcherWebService.war" (runtime-name: "FrontAuthWatcherWebService.war")
+2015-11-12 11:22:38,235 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."Servlet.WatcherAuthServlet".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService, service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService, service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService, service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService, service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.deployment.unit."FrontAuthWatcherWebService.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService, service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService (missing) dependents: [service jboss.deployment.unit."FrontAuthWatcherWebService.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./FrontAuthWatcherWebService.UndertowDeploymentInfoService
+
+2015-11-12 11:22:42,856 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found FrontAuthWatcherWebService.war in deployment directory. To trigger deployment create a file called FrontAuthWatcherWebService.war.dodeploy
